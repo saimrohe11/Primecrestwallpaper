@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallpaper Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Wallpaper Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="#trending">Trending</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="trending">
+    <h2>Trending Wallpapers</h2>
+    <div class="wallpaper-grid">
+      <img src="images/wallpaper1.jpg" alt="Trending Wallpaper 1" class="wallpaper">
+      <img src="images/wallpaper2.jpg" alt="Trending Wallpaper 2" class="wallpaper">
+      <img src="images/wallpaper3.jpg" alt="Trending Wallpaper 3" class="wallpaper">
+    </div>
+  </section>
+
+  <section id="categories">
+    <h2>Categories</h2>
+    <div class="category-grid">
+      <div class="category">Action</div>
+      <div class="category">Colors</div>
+      <div class="category">Nature</div>
+      <div class="category">Abstract</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Wallpaper Hub. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
